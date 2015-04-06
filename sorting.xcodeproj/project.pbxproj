@@ -23,7 +23,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		A62183B11AD1F2D4004E4230 /* autoCells */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = autoCells; sourceTree = BUILT_PRODUCTS_DIR; };
+		A62183B11AD1F2D4004E4230 /* sorting */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = sorting; sourceTree = BUILT_PRODUCTS_DIR; };
 		A62183B41AD1F2D5004E4230 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -41,7 +41,7 @@
 		A62183A81AD1F2D4004E4230 = {
 			isa = PBXGroup;
 			children = (
-				A62183B31AD1F2D4004E4230 /* autoCells */,
+				A62183B31AD1F2D4004E4230 /* sorting */,
 				A62183B21AD1F2D4004E4230 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,25 +49,26 @@
 		A62183B21AD1F2D4004E4230 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A62183B11AD1F2D4004E4230 /* autoCells */,
+				A62183B11AD1F2D4004E4230 /* sorting */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A62183B31AD1F2D4004E4230 /* autoCells */ = {
+		A62183B31AD1F2D4004E4230 /* sorting */ = {
 			isa = PBXGroup;
 			children = (
 				A62183B41AD1F2D5004E4230 /* main.cpp */,
 			);
+			name = sorting;
 			path = autoCells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A62183B01AD1F2D4004E4230 /* autoCells */ = {
+		A62183B01AD1F2D4004E4230 /* sorting */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A62183B81AD1F2D5004E4230 /* Build configuration list for PBXNativeTarget "autoCells" */;
+			buildConfigurationList = A62183B81AD1F2D5004E4230 /* Build configuration list for PBXNativeTarget "sorting" */;
 			buildPhases = (
 				A62183AD1AD1F2D4004E4230 /* Sources */,
 				A62183AE1AD1F2D4004E4230 /* Frameworks */,
@@ -77,9 +78,9 @@
 			);
 			dependencies = (
 			);
-			name = autoCells;
+			name = sorting;
 			productName = autoCells;
-			productReference = A62183B11AD1F2D4004E4230 /* autoCells */;
+			productReference = A62183B11AD1F2D4004E4230 /* sorting */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
@@ -96,7 +97,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A62183AC1AD1F2D4004E4230 /* Build configuration list for PBXProject "autoCells" */;
+			buildConfigurationList = A62183AC1AD1F2D4004E4230 /* Build configuration list for PBXProject "sorting" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -108,7 +109,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A62183B01AD1F2D4004E4230 /* autoCells */,
+				A62183B01AD1F2D4004E4230 /* sorting */,
 			);
 		};
 /* End PBXProject section */
@@ -202,21 +203,21 @@
 		A62183B91AD1F2D5004E4230 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = sorting;
 			};
 			name = Debug;
 		};
 		A62183BA1AD1F2D5004E4230 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = sorting;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A62183AC1AD1F2D4004E4230 /* Build configuration list for PBXProject "autoCells" */ = {
+		A62183AC1AD1F2D4004E4230 /* Build configuration list for PBXProject "sorting" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A62183B61AD1F2D5004E4230 /* Debug */,
@@ -225,13 +226,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A62183B81AD1F2D5004E4230 /* Build configuration list for PBXNativeTarget "autoCells" */ = {
+		A62183B81AD1F2D5004E4230 /* Build configuration list for PBXNativeTarget "sorting" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A62183B91AD1F2D5004E4230 /* Debug */,
 				A62183BA1AD1F2D5004E4230 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
